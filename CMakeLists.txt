@@ -23,6 +23,7 @@ include(ClangCmake)
 file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/libproj/*.?pp)
 list(FILTER SOURCES EXCLUDE REGEX ".test.cpp")
 add_library(LibProj STATIC ${SOURCES})
+target_include_directories(LibProj PUBLIC ${CMAKE_SOURCE_DIR})
 
 
 file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/proj/*.?pp)
