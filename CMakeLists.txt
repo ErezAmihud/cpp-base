@@ -4,7 +4,7 @@ project(proj)
 # cmake modules
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/clang-cmake/cmake)
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
-
+list(APPEND IWYU_IMP ${PROJECT_SOURCE_DIR}/gtest.imp)
 
 
 
