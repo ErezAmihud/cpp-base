@@ -15,6 +15,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # includes
 include(SetupGTest)
+include(CTest)
 include(ClangCmake)
 
 
