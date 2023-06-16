@@ -34,3 +34,4 @@
 # Generated files
 build
 Testing
+.clangd/
