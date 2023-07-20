@@ -36,3 +36,5 @@ build
 Testing
 .clangd/
 .cache
+
+compile_commands.json
