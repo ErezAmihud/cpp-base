@@ -18,42 +18,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # includes
 include(SetupGTest)
-include(SetupProjectOptions)
 include(CTest)
 include(ClangCmake)
-
-
-project_options(
-      PREFIX "proj"
-      ENABLE_CACHE
-      #${ENABLE_CPPCHECK}
-      #ENABLE_CLANG_TIDY
-      #ENABLE_VS_ANALYSIS
-      # ENABLE_CONAN
-      # ENABLE_INTERPROCEDURAL_OPTIMIZATION
-      # ENABLE_NATIVE_OPTIMIZATION
-      #${ENABLE_DOXYGEN}
-      #${ENABLE_COVERAGE}
-      #${ENABLE_SANITIZER_ADDRESS}
-      #${ENABLE_SANITIZER_UNDEFINED_BEHAVIOR}
-      # ENABLE_SANITIZER_THREAD
-      # ENABLE_SANITIZER_MEMORY
-      # ENABLE_CONTROL_FLOW_PROTECTION
-      # ENABLE_STACK_PROTECTION
-      # ENABLE_OVERFLOW_PROTECTION
-      # ENABLE_ELF_PROTECTION
-      # ENABLE_RUNTIME_SYMBOLS_RESOLUTION
-      ENABLE_COMPILE_COMMANDS_SYMLINK
-      # ENABLE_PCH
-      # PCH_HEADERS
-      WARNINGS_AS_ERRORS
-      # ENABLE_INCLUDE_WHAT_YOU_USE
-      # ENABLE_GCC_ANALYZER
-      # ENABLE_BUILD_WITH_TIME_TRACE
-      # ENABLE_UNITY
-      # LINKER "lld"
-      # CONAN_PROFILE ${profile_path}  # passes a profile to conan: see https://docs.conan.io/en/latest/reference/profiles.html
-)
 
 
 # Static library
